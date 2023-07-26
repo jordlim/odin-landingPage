@@ -10,34 +10,43 @@ body{
   flex-direction: column;
 }
 
+ 
+/* Header section */
 
+.top, .bottom{
+  padding: 8px 48px;
+}
 
-/* .center{
+.top{
   display: flex;
-} */
+  justify-content: space-between;
+  align-items: center;
+}
 
 .header{
   background-color: #1F2937;
   color: #F9FAF8;
-
-  
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 #logo{
   font-size: 24px;
 }
 
-/* .header > .right{
-  display: flex;
-  justify-self: right;
-} */
-
 .right-links{
   display: flex;
   gap: 24px;
+}
+
+.bottom{
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom > .right{
+  background-color: #a1a3a8;
+  justify-content: center;
+  align-items: center;
+
 }
 
 ul{
@@ -46,6 +55,7 @@ ul{
   gap: 12px;
 }
 
+/* Main section */
 
 .content{
 
@@ -58,11 +68,28 @@ ul{
 .call{
   background-color: #3882F6;
   border-radius: 5px;
+  color: white;
+
+  margin: 24px 48px;
+  padding: 24px 24px;
+  display: flex;
+}
+
+.sign{
+  color:white;
+  background-color: #3882F6;
+  border-radius: 8px;
+  border: none;
+
+  cursor: pointer;
+}
+
+.call > .sign{
+  border: 2px solid white;
 }
 
 
-
-
+/* Footer section */
 
 .footer{
   height: 72px;
@@ -75,3 +102,4 @@ ul{
   justify-content: center;
   align-items: center;
 }
+
