@@ -2,9 +2,76 @@ html,
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto';
 }
 
-/* *{
-  font-family: 'Roboto';
+body{
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+/* .center{
+  display: flex;
 } */
+
+.header{
+  background-color: #1F2937;
+  color: #F9FAF8;
+
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo{
+  font-size: 24px;
+}
+
+/* .header > .right{
+  display: flex;
+  justify-self: right;
+} */
+
+.right-links{
+  display: flex;
+  gap: 24px;
+}
+
+ul{
+  list-style-type: none;
+  display: flex;
+  gap: 12px;
+}
+
+
+.content{
+
+}
+
+.section{
+  background-color: #E5E7EB;
+}
+
+.call{
+  background-color: #3882F6;
+  border-radius: 5px;
+}
+
+
+
+
+
+.footer{
+  height: 72px;
+  background-color: #1F2937;
+  color: white;
+
+  display:flex;
+  margin-top: auto;
+
+  justify-content: center;
+  align-items: center;
+}
