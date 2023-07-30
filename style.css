@@ -4,69 +4,105 @@ body {
   padding: 0;
 }
 
-body{
-  font-family: 'Roboto', sans-serif;
+body {
+  font-family: "Roboto", sans-serif;
   display: flex;
   flex-direction: column;
 }
 
- 
-/* Header section */
+/* Header top */
 
-.top, .bottom{
+.top,
+.bottom {
   padding: 8px 48px;
 }
 
-.top{
+.top {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.header{
-  background-color: #1F2937;
-  color: #F9FAF8;
+.header {
+  background-color: #1f2937;
+  color: #f9faf8;
 }
 
-#logo{
+#logo {
   font-size: 24px;
 }
 
-.right-links{
+.right-links {
   display: flex;
   gap: 24px;
 }
 
-.bottom{
+/* Header bottom */
+
+.bottom {
   display: flex;
   justify-content: space-between;
 }
 
-.bottom > .right{
+.bottom > .right {
   background-color: #a1a3a8;
   justify-content: center;
   align-items: center;
-
 }
 
-ul{
+ul {
   list-style-type: none;
   display: flex;
   gap: 12px;
 }
 
+li {
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: extra-bold;
+}
+
 /* Main section */
 
-.content{
+/* .content {
 
+} */
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid #fff429;
+  margin: 8px;
 }
 
-.section{
-  background-color: #E5E7EB;
+/* .items {
+  display: flex;
+} */
+
+.section {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px;
 }
 
-.call{
-  background-color: #3882F6;
+#quote {
+  font-style: italic;
+}
+
+#author {
+  display: flex;
+  /* align-items: right; */
+  font-weight: bold;
+}
+
+.call {
+  background-color: #3882f6;
   border-radius: 5px;
   color: white;
 
@@ -75,31 +111,29 @@ ul{
   display: flex;
 }
 
-.sign{
-  color:white;
-  background-color: #3882F6;
+.sign {
+  color: white;
+  background-color: #3882f6;
   border-radius: 8px;
   border: none;
 
   cursor: pointer;
 }
 
-.call > .sign{
+.call > .sign {
   border: 2px solid white;
 }
 
-
 /* Footer section */
 
-.footer{
+.footer {
   height: 72px;
-  background-color: #1F2937;
+  background-color: #1f2937;
   color: white;
 
-  display:flex;
+  display: flex;
   margin-top: auto;
 
   justify-content: center;
   align-items: center;
 }
-
