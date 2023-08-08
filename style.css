@@ -138,7 +138,11 @@ img {
 
   margin: 72px 176px;
   display: flex;
-  padding: 48px 128px;
+  padding: 42px 96px;
+  gap: 32px;
+
+
+  
 }
 
 .sign {
@@ -152,7 +156,22 @@ img {
 
 .call > .sign {
   border: 2px solid white;
-  align-self: flex-end;
+  margin-left: auto;
+
+}
+
+.call-text{
+  font-weight: lighter;
+  opacity: 0.8;
+  font-size: 14px;
+  
+
+}
+
+#call-bold{
+  opacity: 1;
+  font-weight: bold;
+  font-size: 16px;
 }
 
 /* Footer section */
