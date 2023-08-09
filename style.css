@@ -43,25 +43,31 @@ body {
 
 .bottom {
   display: flex;
-  justify-content: space-between;
   gap: 32px;
 }
 
 .bottom > .right {
-  background-color: #a1a3a8;
-  /* justify-content: center;
-  align-items: center; */
+  background-color: #75767a;
+  text-align: center;
+  margin-top: 32px;
+  width: 640px;
+  height: 160px;
+  line-height: 160px;
 }
 
 .bottom > .left {
   display: flex;
   flex-direction: column;
+  gap: 8px;
+  color: #e5e7ebed;
+  width: 400px;
 }
 
 h1 {
   font-size: 48px;
   font-weight: extra-bold;
   margin-bottom: 0px;
+  color: #f9faf8;
 }
 
 ul {
@@ -90,8 +96,8 @@ li {
 }
 
 img {
-  width: 100px;
-  height: 100px;
+  width: 160px;
+  height: 160px;
   border: #3882f6 solid 4px;
   border-radius: 10px;
 }
@@ -100,16 +106,16 @@ img {
   vertical-align: top;
   display: inline-block;
   text-align: center;
-  width: 120px;
+  width: 160px;
   font-size: 12px;
 }
 
 .items {
   padding: 0;
   display: flex;
-  gap: 32px;
+  gap: 64px;
   /* border:#1f2937 solid 10px; */
-  /* justify-content: space-between; */
+  justify-content: space-between;
 }
 
 .section {
@@ -153,6 +159,8 @@ img {
   border: none;
   padding: 6px 30px;
   cursor: pointer;
+  align-self: flex-start;
+
 }
 
 .call > .sign {
